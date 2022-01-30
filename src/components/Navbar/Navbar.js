@@ -89,7 +89,7 @@ const Navbar = () => {
           </div>
 
           <div className="nav-item active li" data-toggle="collapse" data-target="#navbarSupportedContent" >
-            <NavLink className="nav-link" to="/" exact>
+            <NavLink className="nav-link" to="/myportfolio" exact>
               <i class="fas fa-portrait"></i>Bio
             </NavLink>
           </div>
