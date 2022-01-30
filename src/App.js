@@ -29,7 +29,7 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route path='/' exact component={AboutMe} />
-          <Route path='/myportfolio' exact component={AboutMe} />
+          <Route path='/myportfolio/' exact component={AboutMe} />
           <Route path='/education' component={Education} />
           <Route path='/experiences' component={Experiences} />
           <Route path='/skill' component={Skill} />
