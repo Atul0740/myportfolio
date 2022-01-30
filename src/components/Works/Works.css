@@ -1,0 +1,43 @@
+.Container {
+    width: 100%;
+}
+
+.Wrap {
+    background: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+.Wrap h1 {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.Wrap span {
+    margin-right: 1.5rem;
+}
+
+.Wrap:hover {
+    background-color: rgb(26, 25, 25);
+}
+
+.Dropdown {
+    background-color: rgba(26, 25, 25, 0);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    scrollbar-width: 1px;
+    overflow-y: hidden;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 50px;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.aboutme {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 10px;
+    background-image: url('../assets/dark-low-poly.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-name {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.text-text {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 100px;
+}
+
+.photo img {
+    width: 30vw;
+    height: 650px;
+    border-radius: 10px;
+}
+
+.second-title,
+.video-video video {
+    font-size: 50px;
+    margin-bottom: 6vh;
+    margin-left: 5vw;
+    margin-top: 100px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video-text {
+    width: 40vw;
+    font-size: 20px;
+    border-left: 1px solid white;
+    height: 50%;
+    padding-left: 50px;
+}
+
+.text .div-btn {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+    .text {
+        width: 90vw;
+        margin-left: 0px;
+    }
+    .text-name,
+    .second-title {
+        font-size: 40px;
+    }
+    .second-title {
+        margin-bottom: 2px;
+        margin-left: 10px;
+    }
+    .first-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .photo img {
+        width: 90vw;
+        height: 90vw;
+        margin: 0px 0px 0px 0px;
+    }
+    .video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .video-video video {
+        margin-left: 10px;
+    }
+    .video-text {
+        width: 100%;
+        border: none;
+        margin-left: -80px;
+    }
+}
